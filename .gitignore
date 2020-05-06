@@ -1,0 +1,5 @@
+#exclude all the key files
+**/*.ppk
+**/*.key
+**/*.priv
+**/*.pub
