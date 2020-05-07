@@ -13,4 +13,8 @@
 
 # Lab 1.1 Connecting to Management
 
-Um via Gaia Interface eine Verbindung aufbauen zu koennen war eine zusaetzliche Firewall Regel notwendig, welche den Traffic ueber 443 von extern erlaubt.
+Um via Gaia Interface eine Verbindung aufbauen zu koennen war eine zusaetzliche Firewall Regel notwendig, fuer die Uebung wurde 
+
+    any	any	allow
+
+gewaehlt.
