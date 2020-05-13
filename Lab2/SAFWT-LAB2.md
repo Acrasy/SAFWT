@@ -11,10 +11,4 @@
 |Cloudguard internalIP(my-vpc)|192.168.23.2|
 |Cloudguard externalIP|34.71.14.71|
 
-# Lab 1.1 Connecting to Management
-
-Um via Gaia Interface eine Verbindung aufbauen zu koennen war eine zusaetzliche Firewall Regel notwendig, fuer die Uebung wurde 
-
-    any	any	allow
-
-gewaehlt.
+# Lab 2.1: IPS
