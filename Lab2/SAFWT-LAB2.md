@@ -27,7 +27,7 @@ Da jeder Antivirus den EICAR-Teststring erkennen muss, ist die Vorgehensweise zu
 
 Auch Mimikatz konnte problemlos heruntergeladen werden.
 
-![2.2mimikatz](2.2mimikatz.png)
+![2.2mimikatz](screenshots2/2.2mimikatz.png)
 
 Es gibt das Problem, dass beim herunterladen auf TLS gestellt wird und deswegen kann die Firewall das Paket nicht untersuchen.
 Dies konnte leider auch mit http nicht geloest werden.
