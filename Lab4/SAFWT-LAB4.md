@@ -14,6 +14,10 @@
 
 # Lab 4: IPSec VPN
 
+### 4.1
+
 Nach aktivieren des IP-Sec VPN Blades wurde unter "Always use this IP address" die fuer die Firewall extern IP Adresse gewaehlt. G-Cloud routet diese automatisch auf die vom WAN aus erreichbare IP Adresse. Daher glaubt die Firewall ihre externe Adresse sei 10.128.0.2 . Dies soll durch das automatische NAT'ing dieser auf die externe IP 34.71.14.71 fuer uns kein weiteres Hindernis darstellen.
 
 ![4.1](screenshots4/4.1rout.png)
+
+### 4.2
