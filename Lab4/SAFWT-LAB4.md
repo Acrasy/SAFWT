@@ -45,13 +45,13 @@ Nach aktivieren des IP-Sec VPN Blades wurde unter "Always use this IP address" d
 
 ## 4.8
 
-Auch nach mehreren Stunden Troubleshooting konnte der Fehler in der Konfiguration nicht gefunden werden um den Tunnel aufzubauen.
+Der Verbindungsaufbau konnte in folgenden Logs beobachtet werden.
 
-![failure](screenshots4/4.8fail.png)
+![1](screenshots4/p1.png)
+![2](screenshots4/p2.png)
+![3](screenshots4/p3.png)
+![4](screenshots4/p4.png)
 
-Obwohl die Phase 2 verschluesselt senden Versucht.
-
-![fail2](screenshots4/4.8fail2.png)
 
 ## IPSec Parameter
 
