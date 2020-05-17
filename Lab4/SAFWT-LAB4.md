@@ -7,16 +7,23 @@
 | | |
 |Cloudguard Admin User|admin|
 |Cloudguard Admin PW|MesvQPH5h95c|
-|Cloudguard internalIP(default)|10.128.0.2|
-|Cloudguard internalIP(my-vpc)|192.168.23.2|
-|Cloudguard externalIP|34.71.14.71|
+|Cloudguard internal IP(default)|10.128.0.2|
+|Cloudguard internal IP(my-vpc)|192.168.23.2|
+|Cloudguard external IP|34.71.14.71|
 |LinuxHost IP| 192.168.23.50|
+|||
+|CLoudguard external IP Remote|35.194.38.233|
+|LinuxHost IP Remote| 192.168.27.50|
 
 # Lab 4: IPSec VPN
 
 Eine Schwierigkeit, welche immer wieder auftauchte, war dass der RemoteClient regelmaessig haengen bleibt, und auch ab und zu abstuerzt.
 
 ![down](screenshots4/4.0schwierigkeit.png)
+
+## Aufbau/Vorgangsweise
+
+Im Prinzip ist die Vorgangsweise in der Angabe erklaert, alleine die "externe" IP des Partners als Gateway muss die "echte" externe IP sein und nicht wie in der Angabe (2.b) angegeben die "interne-externe" IP.
 
 ### 4.1
 
@@ -41,3 +48,11 @@ Nach aktivieren des IP-Sec VPN Blades wurde unter "Always use this IP address" d
 Auch nach mehreren Stunden Troubleshooting konnte der Fehler in der Konfiguration nicht gefunden werden um den Tunnel aufzubauen.
 
 ![failure](screenshots4/4.8fail.png)
+
+Obwohl die Phase 2 verschluesselt senden Versucht.
+
+![fail2](screenshots4/4.8fail2.png)
+
+## IPSec Parameter
+
+Es wurde dir vorgegebene Encryption Suit verwendet, da diese eine gute Verschluesselung bietet und beim Konfiguriern hier Fehlerquellen ausgeschlossen werden.
